@@ -27,7 +27,7 @@ a {
 #box1 {
   width: 530px;
   height: 645px;
-  background-image: url(./img/wizkidpicture.png);
+  background-image: url(./img/wizzy1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(0, 0, 0);
@@ -43,7 +43,7 @@ a {
   /* height: 645px; */
   height: 100%;
   background-size: cover;
-  background-image:  linear-gradient(45deg, rgba(0, 0, 0, 0.479), rgba(17, 17, 17, 0.705)) ,url(./img/wizkidpicture.png);
+  background-image:  linear-gradient(45deg, rgba(0, 0, 0, 0.479), rgba(17, 17, 17, 0.705)) ,url(./img/wizzy2.jpg);
   background-color: rgb(13, 114, 117);
   background-repeat: 
   no-repeat;
@@ -302,7 +302,7 @@ footer a {
   animation: anim3 3s forwards, moves 3s forwards 3s;
 }
 #box1::after {
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.089), rgba(223, 219, 219, 0.158)) ,url(./img/wizkidpicture.png);
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.089), rgba(223, 219, 219, 0.158)) ,url(./img/wizzy1.jpg);
 }
 #box2 {
   top: 250px;
@@ -403,7 +403,7 @@ footer {
 @media (max-width: 650px) {
   #box1::after {
   height: 100%;
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.479), rgba(17, 17, 17, 0.705)), url(./img/wizkidpicture.png);
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.479), rgba(17, 17, 17, 0.705)), url(./img/wizzy1.jpg);
   background-color: rgb(13, 114, 117);
 
 }
